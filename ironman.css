@@ -1,0 +1,158 @@
+body{
+    background-image:url(https://e0.pxfuel.com/wallpapers/348/686/desktop-wallpaper-iron-man-iphone-ironman-abstract.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#main{
+  display:flex;
+  width:70%;
+  margin:auto;
+  height:auto;
+  /* border:2px solid black; */
+  background-color: rgba(38, 1, 1, 0.559);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+
+
+                   
+h1{color:white;
+font-size:34px;
+margin-left:5%;
+}
+                         
+#main>div:first-child>div>p{
+color:white;
+font-size: 20px;
+text-align:justify;
+padding:2%;
+filter:drop-shadow( .5px .5px  .5px rgb(255, 255, 255))}
+
+
+span{
+margin-left:5%
+}     
+
+#main>div:first-child{
+      width:40%;
+      height:100%;}
+#main>div:last-child{
+width:60%;
+height:100%;
+}
+
+#main>div>div{
+height:auto;
+}
+#main>div>div>img{
+width:50%;
+display:block;
+margin:auto;
+border-radius: 8px; 
+
+border:5px solid rgb(255, 255, 255) 
+
+}
+#main>div>div:first-child{
+
+}
+#main>div:first-child>div>span{
+background-color: rgba(168, 0, 0, 0.359);
+color:white;
+width:auto;
+height: auto;
+font-size: 25px;
+border-radius:10px;
+margin:2%;
+padding:2%;
+margin-left:5%; }
+#main>div:first-child>div>span:hover{
+background-color: rgba(226, 74, 74, 0.616);
+color:white;
+cursor: pointer;
+}
+#main>div:last-child>div>span:hover{background-color: rgba(226, 74, 74, 0.616);
+                                color:white;
+                                cursor: pointer;
+                          }
+#main>div:last-child>div>p{font-size: 35px;
+                       color:white;
+                       margin-left: 5%;
+                       background-color: rgba(29, 0, 0, 0.447);
+                       border-radius:15px; 
+                    }
+#main>div:first-child>div{display:flex;
+                      justify-content: space-evenly;
+                      flex-wrap:wrap;
+
+                     }
+#main>div:last-child>div>span{
+background-color: rgba(89, 4, 4, 0.712);
+color:white;
+ width:auto;
+height: auto;
+font-size: 25px;
+border-radius:10px;
+margin:2%;
+padding:2%;
+margin-left:5%;
+}
+#main>:last-child>div{
+display:flex;
+justify-content: space-evenly;          
+flex-direction: column;}
+#main>div>div:last-child>p{
+background-color: rgba(255, 254, 254, 0.115);
+color:rgb(255, 254, 254);
+border-radius:15px;
+font-weight: 300;
+text-align: center;
+}
+h2{
+font-size: 50px;
+color:white;
+margin-left: 5%;}
+
+li{
+list-style-type: none;
+font-size:20px;
+color:white;
+margin-left: 5%;
+}
+li::before{content: '';
+display: inline-block;
+list-style-position: outside;
+height: 30px;
+width: 30px; 
+background-size: 30px;
+background-image: url("https://cdn-icons-png.flaticon.com/128/8416/8416770.png");
+background-repeat: no-repeat;
+margin-right: 5px;
+}
+iframe{
+border: 1px soli black;
+width: 100%;
+border: 2px solid white;
+display: flex;
+}       
+h3{
+color: white;
+}       
+@media all and (min-width:300px) and (max-width:720px)
+{ #main{flex-direction:column;
+    width:100 }
+#main>div:first-child{width:90%;}
+#main>div:last-child{width:90%;}
+}
+@media all and (min-width:721px) and (max-width:1100px){
+  #main{flex-direction:column;
+        width:100%;
+    }
+ #main>div:first-child
+ {width:80%
+}
+ #main>div:last-child{
+    width:80%;}
+ }
